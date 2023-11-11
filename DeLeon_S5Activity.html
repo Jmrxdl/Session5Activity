@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session5</title>
+    <link rel="stylesheet" href="5style.css">
+</head>
+<body>
+    <header>
+        <h1>APPEARANCE CLOTHING</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <h2>Welcome to Appearance Clothing!</h2>
+        <p>Discover the latest trends and styles in fashion.</p>
+    </section>
+<section id="products">
+  <h2>Products</h2>
+  <br>
+  <br>
+  <div id="highminds">
+      <img src="https://i.pinimg.com/736x/1a/2a/d7/1a2ad705a1739af012d352bc796547a7.jpg" alt="Product 1">
+      <p>Highminds Tee Shirt 1972</p>
+      <button onclick="addToCart('Highminds Tee Shirt 1972')">Add to Cart</button>
+  </div>
+<br>
+<br>
+<br>
+  <div id="Nick">
+      <img src="https://cf.shopee.ph/file/2f06b6ea6172b15b41f0232da1a13bb2" alt="Product 2">
+      <p>Nick Automatic Shirt Handmade World Domination</p>
+      <button onclick="addToCart('Nick Automatic Shirt Handmade World Domination')">Add to Cart</button>
+  </div>
+  <br>
+  <br>
+  <br>
+  <div id="dbtk">
+      <img src="https://cf.shopee.ph/file/4d9dca473d2573afc122de8475aeaa8b" alt="Product 3">
+      <p>DBTK Grapes Shirt</p>
+      <button onclick="addToCart('DBTK Grapes Shirt')">Add to Cart</button>
+  </div>
+  <br>
+  <br>
+  <br>
+</section>
+<script>
+  function addToCart(productName) {
+      alert('Added ' + productName + ' to the cart!');
+  }
+</script>
+      <br>
+        <br>
+        <br>
+        <br>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our clothing line and our commitment to quality and style.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Follow us on social media:</p>
+      <div class ="social-icons">
+          <a href="https://www.instagram.com/your_instagram_profile" target="_blank">
+              <img src="https://pngimg.com/uploads/instagram/instagram_PNG10.png" alt="Instagram">
+          </a>
+          <a href="https://www.facebook.com/your_facebook_page" target="_blank">
+              <img src="https://clipart.info/images/ccovers/1509135366facebook-symbol-png-logo.png" alt="Facebook">
+          </a>
+          <a href="https://twitter.com/your_twitter_profile" target="_blank">
+              <img src="https://imagepng.org/wp-content/uploads/2018/08/twitter-icone.png" alt="Twitter">
+          </a>
+      </div>
+  </section>
+    <footer>
+        <p>&copy; 2023 Appearance Clothing. All rights reserved.</p>
+    </footer>
+</body>
+</html>
